@@ -1,5 +1,9 @@
 class UsersController < ApplicationController
+
+  def show
+    
+  end
   def new
-    @title = "Sing up"
+    @title = "Sign up"
   end
 end
